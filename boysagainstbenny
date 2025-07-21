@@ -1,19 +1,95 @@
-  <h1>MISSION:</strong> Keep drinks in cups, not on keyboards.</h1>
-     <div class="brochure">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boys Against Benny</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #fcefc7;
+      text-align: center;
+      padding: 2em;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #cc3300;
+    }
+
+    .brochure {
+      width: 80%;
+      margin: 2em auto;
+      border: 5px dashed #000;
+      padding: 1em;
+      background: #fff8e7;
+    }
+
+    .img-container {
+      text-align: center;
+    }
+
+    .img-container img {
+      width: 60%;
+      max-width: 500px;
+      height: auto;
+      border: 4px solid #444;
+      display: inline-block;
+    }
+
+    .quote {
+      font-style: italic;
+      margin-top: 1em;
+      color: #444;
+    }
+
+    .footer {
+      margin-top: 2em;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    .comment-box {
+      margin-top: 2em;
+    }
+
+    input, textarea {
+      width: 80%;
+      padding: 0.5em;
+      margin: 0.5em 0;
+      font-family: inherit;
+    }
+
+    button {
+      padding: 0.7em 2em;
+      font-size: 1em;
+      background-color: #cc3300;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #a52800;
+    }
+  </style>
+</head>
+<body>
+  <h1>Boys Against Benny</h1>
+  <div class="brochure">
     <div class="img-container">
-      <img src="Boys Against Benny.png" alt="Boys Against Benny Poster"  width="60%">
+      <img src="Boys Against Benny.png" alt="Boys Against Benny Poster">
     </div>
-    <p class="quote">"He attacked a perfectly good laptop. We won't stand idly by." — Sam, 2023</p>
+    <p class="quote">"He ruined a perfectly good laptop. We won't stand idly by." — Sam, 2023</p>
     <p>We're raising awareness and seeking justice for laptops, juice spills, and betrayed friendships everywhere. Join the movement to keep Benny's juice boxes far from our electronics.</p>
+    <p><strong>MISSION:</strong> Keep juice in cups, not on keyboards.</p>
   </div>
 
   <div class="comment-box">
     <h2>Tell Us Your Benny Story</h2>
-    <input type="text" placeholder="Name or Secret Alias">
-    <br>
-      </div>
-    Share your trauma.
-    
+    <input type="text" placeholder="Name or Secret Alias"><br>
+    <textarea rows="4" placeholder="Share your trauma (or prank Sam back)"></textarea><br>
+    <button onclick="alert('Thank you for sharing. Justice is coming.')">Submit</button>
   </div>
 
   <div class="footer">
